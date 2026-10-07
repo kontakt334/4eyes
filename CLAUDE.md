@@ -24,6 +24,11 @@ Umowy to wzory — przed podpisaniem przy większych kwotach warto, żeby rzuci�
 - Pisz konkretnie i luźno — jesteśmy kolektywem, nie korporacją.
 - Zanim coś zaproponujesz, sprawdź pliki w `kontekst/`, `marka/` i `portfolio/`.
 - Nowe projekty zakładaj w `projekty/` na bazie `projekty/_szablon/`.
+- **Po każdej skończonej pracy zapisz efekt w repo i zrób commit + push** na GitHuba
+  (`kontakt334/4eyes`, gałąź `main`). Dotyczy dokumentów, zmian w kontekście i kodu strony.
+  Krótko powiedz, co zapisałeś i gdzie. Wyjątek: ktoś wyraźnie prosi, żeby czegoś nie zapisywać.
+- Nowe ustalenia o nas (ekipa, styl, klienci, zasady) od razu dopisuj do właściwego pliku w `kontekst/` lub `marka/`.
+- Repo: https://github.com/kontakt334/4eyes
 
 ## Gdzie co jest
 - `kontekst/o-nas.md` — kim jesteśmy, ekipa, oferta
