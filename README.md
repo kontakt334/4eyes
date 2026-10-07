@@ -20,7 +20,10 @@ Tu trzymamy kontekst, zasady pracy, inspiracje i projekty — niezależnie od ko
 ├── portfolio/
 │   └── realizacje.md      ← lista prac z linkami
 ├── projekty/
-│   └── _szablon/          ← szablon nowego projektu (brief, treatment, notatki)
+│   └── _szablon/          ← szablon nowego projektu:
+│       ├── brief.md, treatment.md, scenariusz.md, shotlista.md, moodboard.md   (kreatywne)
+│       ├── kosztorys.csv, plan-dnia.md, notatki.md                              (produkcyjne)
+│       └── umowy/         ← wzory umów i zgód
 └── strona/                ← kod strony internetowej
 ```
 

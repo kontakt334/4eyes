@@ -1,0 +1,26 @@
+Kategoria;Pozycja;Ilość;Jednostka;Stawka netto (PLN);Suma netto (PLN);Uwagi
+Preprodukcja;Scenariusz / treatment;1;szt.;0;0;
+Preprodukcja;Scouting lokacji;1;dzień;0;0;
+Ekipa;Reżyser;1;dzień;0;0;
+Ekipa;Operator / DOP;1;dzień;0;0;
+Ekipa;Asystent kamery;1;dzień;0;0;
+Ekipa;Gaffer / oświetleniowiec;1;dzień;0;0;
+Ekipa;Kierownik produkcji;1;dzień;0;0;
+Ekipa;Make-up / stylizacja;1;dzień;0;0;
+Sprzęt;Kamera + obiektywy;1;dzień;0;0;
+Sprzęt;Światło;1;dzień;0;0;
+Sprzęt;Grip (statyw, gimbal, slider);1;dzień;0;0;
+Lokacje;Wynajem lokacji;1;dzień;0;0;
+Obsada;Aktorzy / statyści;1;os.;0;0;
+Logistyka;Transport;1;kpl.;0;0;
+Logistyka;Catering;1;os.;0;0;
+Postprodukcja;Montaż;1;dzień;0;0;
+Postprodukcja;Color grading;1;dzień;0;0;
+Postprodukcja;Grafika / VFX;1;szt.;0;0;
+Postprodukcja;Dźwięk / miks;1;szt.;0;0;
+Inne;Ubezpieczenie;1;kpl.;0;0;
+Inne;Rezerwa (np. 10%);1;kpl.;0;0;
+;;;;;;
+;RAZEM NETTO;;;;0;
+;VAT 23%;;;;0;
+;RAZEM BRUTTO;;;;0;
