@@ -1,0 +1,34 @@
+# Ciężkie pliki wideo i audio — trzymamy na dysku/NAS, nie w gicie
+*.mp4
+*.mov
+*.mxf
+*.r3d
+*.braw
+*.avi
+*.mkv
+*.wav
+*.aif
+*.aiff
+
+# Projekty montażowe / grafiki i ich cache
+*.prproj
+*.drp
+*.aep
+*.psd
+*.psb
+Adobe Premiere Pro Auto-Save/
+Media Cache/
+Media Cache Files/
+CacheClip/
+*.cfa
+*.pek
+
+# Systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Edytor / sekrety
+.vscode/settings.json
+.env
+node_modules/
