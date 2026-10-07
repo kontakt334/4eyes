@@ -24,11 +24,16 @@ Umowy to wzory — przed podpisaniem przy większych kwotach warto, żeby rzuci�
 - Pisz konkretnie i luźno — jesteśmy kolektywem, nie korporacją.
 - Zanim coś zaproponujesz, sprawdź pliki w `kontekst/`, `marka/` i `portfolio/`.
 - Nowe projekty zakładaj w `projekty/` na bazie `projekty/_szablon/`.
-- **Po każdej skończonej pracy zapisz efekt w repo i zrób commit + push** na GitHuba
-  (`kontakt334/4eyes`, gałąź `main`). Dotyczy dokumentów, zmian w kontekście i kodu strony.
-  Krótko powiedz, co zapisałeś i gdzie. Wyjątek: ktoś wyraźnie prosi, żeby czegoś nie zapisywać.
-- Nowe ustalenia o nas (ekipa, styl, klienci, zasady) od razu dopisuj do właściwego pliku w `kontekst/` lub `marka/`.
-- Repo: https://github.com/kontakt334/4eyes
+## Repo to nasza wspólna pamięć — na każdym urządzeniu
+Repo https://github.com/kontakt334/4eyes (gałąź `main`) jest jedynym źródłem prawdy.
+Niezależnie od urządzenia i narzędzia (Claude Desktop, przeglądarka, telefon, VS Code):
+1. **Na starcie pracy** pobierz najnowszą wersję repo (`git pull` / świeży klon), żeby pracować na aktualnym kontekście.
+2. **W trakcie** nowe ustalenia o nas (ekipa, styl, klienci, zasady, decyzje) od razu dopisuj do właściwego pliku
+   w `kontekst/` lub `marka/`; efekty pracy zapisuj w `projekty/`, `inspiracje/`, `portfolio/` albo `strona/`.
+3. **Po każdej skończonej pracy** zrób commit + push. Krótko powiedz, co zapisałeś i gdzie.
+4. **Jeśli w danej sesji nie masz dostępu do repo** — powiedz to wprost i poproś o podpięcie repo
+   (link wyżej). Nie udawaj, że zapisałeś.
+Wyjątek: ktoś wyraźnie prosi, żeby czegoś nie zapisywać.
 
 ## Gdzie co jest
 - `kontekst/o-nas.md` — kim jesteśmy, ekipa, oferta
