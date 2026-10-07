@@ -3,11 +3,648 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>4 Eyez</title>
+  <title>4 Eyez — teledyski i reklamy z Warszawy</title>
+  <meta name="description" content="4 Eyez to kolektyw produkcji wideo z Warszawy. Robimy teledyski i reklamy.">
+
+  <!--
+    SZABLON POKAZOWY v1
+    - Treści w [nawiasach kwadratowych] to placeholdery do podmiany.
+    - Kolory i fonty to robocza propozycja (zmienne na górze CSS) — zapisane w marka/brand.md.
+    - Gdy będą prawdziwe loopy: w każdej ramce hero i kafelku dodaj atrybut
+      data-preview="sciezka/do/loopa.mp4" (kafelki) albo wstaw <video> w .frame (hero).
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
-    html, body { height: 100%; margin: 0; background: #000; }
+    :root {
+      --black: #000000;
+      --surface: #151515;
+      --line: #2b2b2b;
+      --text: #f5f5f5;
+      --muted: #8f8f8f;
+      --accent: #a99bff;
+
+      --gutter: clamp(1rem, 3.2vw, 3rem);
+      --header: 4.25rem;
+      --ease: cubic-bezier(.7, 0, .2, 1);
+
+      --font-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+      --font-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: var(--header); }
+    body {
+      margin: 0;
+      background: var(--black);
+      color: var(--text);
+      font: 400 1rem/1.55 var(--font-body);
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3, p, ol, dl, dd, figure { margin: 0; padding: 0; }
+    a { color: inherit; }
+    button { font: inherit; color: inherit; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+    .display {
+      font-family: var(--font-display);
+      font-stretch: 112%;
+      font-weight: 750;
+      letter-spacing: -0.03em;
+      line-height: .98;
+    }
+
+    /* ---------- Sceny-zastępniki (do podmiany na prawdziwe wideo) ---------- */
+    .scene {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(70% 90% at 25% 20%, var(--c1), transparent 70%),
+        radial-gradient(80% 70% at 85% 85%, var(--c2), transparent 65%),
+        var(--c3);
+      background-size: 160% 160%, 160% 160%, auto;
+    }
+    .scene::after { /* ziarno filmowe */
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+      mix-blend-mode: overlay;
+      opacity: .4;
+      pointer-events: none;
+    }
+    .s1 { --c1: #7a5cff; --c2: #ff8a5c; --c3: #120d24; }
+    .s2 { --c1: #2fd0c0; --c2: #1a4a8a; --c3: #07151c; }
+    .s3 { --c1: #ff5c8a; --c2: #5b2a86; --c3: #1a0a1c; }
+    .s4 { --c1: #e8c46a; --c2: #a3452a; --c3: #1c110a; }
+    .s5 { --c1: #6aa7ff; --c2: #2a2f6e; --c3: #0a0d1c; }
+    .s6 { --c1: #c9c3b8; --c2: #6b6358; --c3: #1a1816; }
+    .s7 { --c1: #5fe0a0; --c2: #1f6b57; --c3: #08171a; }
+    .s8 { --c1: #ff9d4a; --c2: #7a2d1b; --c3: #180b08; }
+    .s9 { --c1: #b9b9c9; --c2: #4a4a5c; --c3: #101014; }
+
+    @keyframes drift {
+      from { background-position: 0% 0%, 100% 100%, 0 0; }
+      to   { background-position: 100% 60%, 0% 20%, 0 0; }
+    }
+    @keyframes open {
+      from { clip-path: inset(49% 0 49% 0); }
+      to   { clip-path: inset(0 0 0 0); }
+    }
+    @keyframes appear { from { opacity: 0; } to { opacity: 1; } }
+
+    /* ---------- Nagłówek ---------- */
+    .top {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      height: var(--header);
+      padding-inline: var(--gutter);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--black);
+    }
+    .logo {
+      font-family: var(--font-display);
+      font-stretch: 125%;
+      font-weight: 900;
+      font-size: 1.4rem;
+      letter-spacing: -0.03em;
+      text-decoration: none;
+    }
+    .nav { display: flex; gap: clamp(1.25rem, 3vw, 2.5rem); }
+    .nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .2s;
+    }
+    .nav a:hover { color: var(--text); }
+
+    /* ---------- Hero: cztery kadry ---------- */
+    .hero {
+      position: relative;
+      height: calc(100svh - var(--header));
+      min-height: 32rem;
+      overflow: hidden;
+    }
+    .hero-frames {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+    }
+    .frame {
+      animation:
+        open 1.1s var(--ease) calc(var(--i) * 140ms) both,
+        drift 20s ease-in-out calc(var(--i) * -4s) infinite alternate;
+    }
+    .frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .hero::after { /* przyciemnienie pod tekstem */
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, #000 0%, rgba(0,0,0,.78) 26%, rgba(0,0,0,0) 62%);
+      pointer-events: none;
+    }
+    .hero-copy {
+      position: absolute;
+      z-index: 2;
+      left: var(--gutter);
+      right: var(--gutter);
+      bottom: clamp(1.5rem, 5vw, 4rem);
+      animation: appear .8s ease-out 1.1s both;
+    }
+    .hero h1 {
+      font-size: clamp(2.6rem, 8.2vw, 8.5rem);
+      max-width: 13ch;
+      text-wrap: balance;
+    }
+    .hero-lead {
+      margin-top: 1.25rem;
+      max-width: 34rem;
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
+      color: #d6d6d6;
+    }
+    .hero-actions { margin-top: 1.75rem; display: flex; align-items: center; gap: 1.75rem; flex-wrap: wrap; }
+
+    .btn {
+      display: inline-block;
+      padding: .85rem 1.5rem;
+      background: var(--accent);
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background .2s;
+    }
+    .btn:hover { background: #fff; }
+    .text-link {
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-color: var(--accent);
+      text-decoration-thickness: 2px;
+      text-underline-offset: .3em;
+    }
+
+    /* ---------- Sekcje ---------- */
+    .section { padding: clamp(4rem, 9vw, 8rem) var(--gutter) 0; }
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 1.5rem 2rem;
+      flex-wrap: wrap;
+      margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+    }
+    .section h2 { font-size: clamp(2rem, 4.2vw, 3.6rem); }
+    .section-note { margin-top: .9rem; max-width: 38rem; color: var(--muted); }
+
+    /* Filtry */
+    .filters { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .filters button {
+      padding: .35rem 0;
+      background: none;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      color: var(--muted);
+      font-weight: 500;
+      cursor: pointer;
+      transition: color .2s;
+    }
+    .filters button:hover { color: var(--text); }
+    .filters button[aria-pressed="true"] { color: var(--text); border-bottom-color: var(--accent); }
+
+    /* ---------- Siatka prac ---------- */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(1.25rem, 2vw, 2rem) clamp(.75rem, 1.4vw, 1.25rem);
+    }
+    .tile {
+      display: flex;
+      flex-direction: column;
+      gap: .8rem;
+      padding: 0;
+      background: none;
+      border: 0;
+      text-align: left;
+      cursor: pointer;
+    }
+    .tile[hidden] { display: none; }
+    .tile-frame { position: relative; aspect-ratio: 16 / 9; }
+    .tile-frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+    .tile-frame::before { /* znaczniki kadru kamery */
+      content: "";
+      position: absolute;
+      inset: .85rem;
+      z-index: 2;
+      opacity: 0;
+      transition: opacity .2s;
+      pointer-events: none;
+      --b: linear-gradient(var(--accent), var(--accent));
+      background:
+        var(--b) top left / 1.25rem 2px no-repeat,
+        var(--b) top left / 2px 1.25rem no-repeat,
+        var(--b) top right / 1.25rem 2px no-repeat,
+        var(--b) top right / 2px 1.25rem no-repeat,
+        var(--b) bottom left / 1.25rem 2px no-repeat,
+        var(--b) bottom left / 2px 1.25rem no-repeat,
+        var(--b) bottom right / 1.25rem 2px no-repeat,
+        var(--b) bottom right / 2px 1.25rem no-repeat;
+    }
+    .tile:hover .tile-frame::before,
+    .tile:focus-visible .tile-frame::before { opacity: 1; }
+
+    .tile-meta { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+    .tile-title {
+      font-family: var(--font-display);
+      font-stretch: 100%;
+      font-weight: 650;
+      font-size: 1.1rem;
+      letter-spacing: -0.01em;
+    }
+    .tile-info { color: var(--muted); font-size: .9rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+    /* Flagowiec: 2 kolumny × 2 rzędy */
+    .tile.is-flagship { grid-column: span 2; grid-row: span 2; }
+    .tile.is-flagship .tile-frame { aspect-ratio: auto; flex: 1; min-height: 0; }
+    .tile.is-flagship .tile-title { font-size: 1.5rem; }
+    .grid.is-filtered .tile.is-flagship { grid-column: auto; grid-row: auto; }
+    .grid.is-filtered .tile.is-flagship .tile-frame { aspect-ratio: 16 / 9; flex: none; }
+    .grid.is-filtered .tile.is-flagship .tile-title { font-size: 1.1rem; }
+
+    /* ---------- Proces ---------- */
+    .steps {
+      list-style: none;
+      counter-reset: step;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+      gap: 2rem clamp(1.5rem, 3vw, 3rem);
+    }
+    .steps li { counter-increment: step; }
+    .steps li::before {
+      content: counter(step);
+      display: block;
+      margin-bottom: .75rem;
+      font-family: var(--font-display);
+      font-stretch: 125%;
+      font-weight: 800;
+      font-size: 3.4rem;
+      line-height: 1;
+      color: var(--accent);
+    }
+    .steps h3 { font-family: var(--font-display); font-stretch: 100%; font-weight: 650; font-size: 1.2rem; margin-bottom: .4rem; }
+    .steps p { color: var(--muted); max-width: 22rem; }
+
+    /* ---------- Ekipa ---------- */
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+      gap: 2rem clamp(.75rem, 1.4vw, 1.25rem);
+    }
+    .portrait { aspect-ratio: 4 / 5; margin-bottom: .9rem; }
+    .person h3 { font-family: var(--font-display); font-stretch: 100%; font-weight: 650; font-size: 1.2rem; }
+    .person p { color: var(--muted); }
+
+    /* ---------- Kontakt ---------- */
+    .contact h2 { margin-bottom: 1.5rem; }
+    .mail {
+      display: inline-block;
+      font-size: clamp(1.8rem, 6.2vw, 5.5rem);
+      text-decoration: underline;
+      text-decoration-color: var(--accent);
+      text-decoration-thickness: .06em;
+      text-underline-offset: .12em;
+      overflow-wrap: anywhere;
+      transition: color .2s;
+    }
+    .mail:hover { color: var(--accent); }
+    .socials { margin-top: 2rem; display: flex; gap: .75rem 2rem; flex-wrap: wrap; }
+    .socials a { color: var(--muted); text-decoration: none; font-weight: 500; transition: color .2s; }
+    .socials a:hover { color: var(--text); }
+
+    footer {
+      margin-top: clamp(4rem, 9vw, 8rem);
+      padding: 1.5rem var(--gutter) 2rem;
+      display: flex;
+      justify-content: space-between;
+      gap: .5rem 2rem;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    /* ---------- Okno projektu ---------- */
+    .project {
+      width: min(1100px, 94vw);
+      max-height: 94svh;
+      padding: 0;
+      border: 0;
+      background: var(--surface);
+      color: var(--text);
+      overflow: auto;
+    }
+    .project[open] { animation: appear .25s ease-out; }
+    .project::backdrop { background: rgba(0, 0, 0, .88); }
+    .project-frame { aspect-ratio: 16 / 9; width: 100%; }
+    .project-frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+    .project-body {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 1.5rem 3rem;
+      padding: clamp(1.25rem, 3vw, 2.25rem);
+    }
+    .project-body h3 { font-size: clamp(1.5rem, 3vw, 2.4rem); margin-bottom: .5rem; }
+    .project-type { color: var(--muted); margin-bottom: 1rem; }
+    .credits { display: grid; grid-template-columns: auto 1fr; gap: .45rem 1.5rem; align-content: start; }
+    .credits dt { color: var(--muted); }
+    .project-close {
+      position: absolute;
+      top: .9rem;
+      right: .9rem;
+      z-index: 3;
+      padding: .5rem 1rem;
+      background: #000;
+      border: 0;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .2s, color .2s;
+    }
+    .project-close:hover { background: var(--accent); color: #000; }
+    .project-wrap { position: relative; }
+
+    /* ---------- Responsywność ---------- */
+    @media (max-width: 1000px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .tile.is-flagship { grid-column: span 2; grid-row: auto; }
+      .tile.is-flagship .tile-frame { aspect-ratio: 16 / 9; flex: none; }
+    }
+    @media (max-width: 700px) {
+      :root { --header: 3.75rem; }
+      .hero-frames { grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr); }
+      .hero { min-height: 30rem; }
+      .grid { grid-template-columns: 1fr; }
+      .tile.is-flagship { grid-column: auto; }
+      .project-body { grid-template-columns: 1fr; }
+      .section-head { align-items: flex-start; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .frame, .hero-copy, .project[open] { animation: none; }
+    }
   </style>
 </head>
 <body>
+
+  <header class="top">
+    <a class="logo" href="#" aria-label="4 Eyez, początek strony">4 Eyez</a>
+    <nav class="nav" aria-label="Główne">
+      <a href="#prace">Prace</a>
+      <a href="#ekipa">Ekipa</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO: cztery kadry = 4 Eyez. Podmień .frame na <video autoplay muted loop playsinline> -->
+    <section class="hero" aria-label="Showreel">
+      <div class="hero-frames" aria-hidden="true">
+        <div class="frame scene s1" style="--i:0"></div>
+        <div class="frame scene s2" style="--i:1"></div>
+        <div class="frame scene s3" style="--i:2"></div>
+        <div class="frame scene s4" style="--i:3"></div>
+      </div>
+      <div class="hero-copy">
+        <h1 class="display">Teledyski i&nbsp;reklamy z&nbsp;Warszawy.</h1>
+        <p class="hero-lead">4 Eyez to kolektyw produkcji wideo z Warszawy. Robimy teledyski i reklamy.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#prace">Zobacz prace</a>
+          <a class="text-link" href="#kontakt">Napisz do nas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRACE -->
+    <section class="section" id="prace">
+      <div class="section-head">
+        <h2 class="display">Prace</h2>
+        <div class="filters" role="group" aria-label="Filtruj prace">
+          <button type="button" data-filter="all" aria-pressed="true">Wszystko</button>
+          <button type="button" data-filter="teledysk" aria-pressed="false">Teledyski</button>
+          <button type="button" data-filter="reklama" aria-pressed="false">Reklamy</button>
+          <button type="button" data-filter="foto" aria-pressed="false">Foto</button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- Flagowiec (⭐ z portfolio/realizacje.md) idzie pierwszy i jest największy -->
+        <button class="tile is-flagship" type="button" data-type="teledysk" data-scene="s1" data-title="[Artysta — Utwór]" data-label="Teledysk" data-year="[rok]">
+          <span class="tile-frame scene s1"></span>
+          <span class="tile-meta"><span class="tile-title">[Artysta — Utwór]</span><span class="tile-info">Teledysk&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="reklama" data-scene="s2" data-title="[Marka — Kampania]" data-label="Reklama" data-year="[rok]">
+          <span class="tile-frame scene s2"></span>
+          <span class="tile-meta"><span class="tile-title">[Marka — Kampania]</span><span class="tile-info">Reklama&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="teledysk" data-scene="s3" data-title="[Artysta — Utwór]" data-label="Teledysk" data-year="[rok]">
+          <span class="tile-frame scene s3"></span>
+          <span class="tile-meta"><span class="tile-title">[Artysta — Utwór]</span><span class="tile-info">Teledysk&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="teledysk" data-scene="s4" data-title="[Artysta — Utwór]" data-label="Teledysk" data-year="[rok]">
+          <span class="tile-frame scene s4"></span>
+          <span class="tile-meta"><span class="tile-title">[Artysta — Utwór]</span><span class="tile-info">Teledysk&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="foto" data-scene="s6" data-title="[Seria — Sesja]" data-label="Foto" data-year="[rok]">
+          <span class="tile-frame scene s6"></span>
+          <span class="tile-meta"><span class="tile-title">[Seria — Sesja]</span><span class="tile-info">Foto&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="reklama" data-scene="s5" data-title="[Marka — Kampania]" data-label="Reklama" data-year="[rok]">
+          <span class="tile-frame scene s5"></span>
+          <span class="tile-meta"><span class="tile-title">[Marka — Kampania]</span><span class="tile-info">Reklama&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="teledysk" data-scene="s7" data-title="[Artysta — Utwór]" data-label="Teledysk" data-year="[rok]">
+          <span class="tile-frame scene s7"></span>
+          <span class="tile-meta"><span class="tile-title">[Artysta — Utwór]</span><span class="tile-info">Teledysk&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="reklama" data-scene="s8" data-title="[Marka — Kampania]" data-label="Reklama" data-year="[rok]">
+          <span class="tile-frame scene s8"></span>
+          <span class="tile-meta"><span class="tile-title">[Marka — Kampania]</span><span class="tile-info">Reklama&ensp;[rok]</span></span>
+        </button>
+        <button class="tile" type="button" data-type="foto" data-scene="s9" data-title="[Seria — Sesja]" data-label="Foto" data-year="[rok]">
+          <span class="tile-frame scene s9"></span>
+          <span class="tile-meta"><span class="tile-title">[Seria — Sesja]</span><span class="tile-info">Foto&ensp;[rok]</span></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- PROCES (dla klientów komercyjnych; szkic do poprawki) -->
+    <section class="section" id="proces">
+      <div class="section-head">
+        <div>
+          <h2 class="display">Jak pracujemy</h2>
+          <p class="section-note">Od pierwszej wiadomości do gotowych plików. [Szkic: popraw pod swój realny proces.]</p>
+        </div>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Brief</h3>
+          <p>Mówisz, co chcesz osiągnąć: klip czy spot, termin, budżet.</p>
+        </li>
+        <li>
+          <h3>Pomysł i wycena</h3>
+          <p>Dostajesz treatment, kosztorys i harmonogram.</p>
+        </li>
+        <li>
+          <h3>Zdjęcia</h3>
+          <p>Plan dnia, ekipa, sprzęt, lokacje. Na planie wszystko jest dogadane.</p>
+        </li>
+        <li>
+          <h3>Montaż i dostawa</h3>
+          <p>Montaż, kolor, dźwięk. Pliki w formatach, których potrzebujesz.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EKIPA: każdy z własną rolą (liczbę kart dopasuj do składu) -->
+    <section class="section" id="ekipa">
+      <div class="section-head">
+        <div>
+          <h2 class="display">Ekipa</h2>
+          <p class="section-note">[2–3 zdania o kolektywie: kim jesteście, co was łączy, jak pracujecie.]</p>
+        </div>
+      </div>
+      <div class="team">
+        <figure class="person">
+          <div class="portrait scene s1"></div>
+          <h3>[Imię / ksywa]</h3>
+          <p>[reżyseria]</p>
+        </figure>
+        <figure class="person">
+          <div class="portrait scene s2"></div>
+          <h3>[Imię / ksywa]</h3>
+          <p>[zdjęcia]</p>
+        </figure>
+        <figure class="person">
+          <div class="portrait scene s3"></div>
+          <h3>[Imię / ksywa]</h3>
+          <p>[montaż i kolor]</p>
+        </figure>
+        <figure class="person">
+          <div class="portrait scene s4"></div>
+          <h3>[Imię / ksywa]</h3>
+          <p>[produkcja]</p>
+        </figure>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section contact" id="kontakt">
+      <h2 class="display">Masz projekt? Napisz do nas.</h2>
+      <a class="mail display" href="mailto:">[adres e-mail]</a>
+      <div class="socials">
+        <a href="#">[Instagram]</a>
+        <a href="#">[YouTube / Vimeo]</a>
+        <a href="#">[Telefon]</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2026 4 Eyez, Warszawa</span>
+    <span>Szablon pokazowy: treści w nawiasach kwadratowych to placeholdery.</span>
+  </footer>
+
+  <!-- OKNO PROJEKTU -->
+  <dialog class="project" id="project" aria-labelledby="project-title">
+    <div class="project-wrap">
+      <button class="project-close" type="button" id="project-close">Zamknij</button>
+      <div class="project-frame scene s1" id="project-frame"></div>
+      <div class="project-body">
+        <div>
+          <h3 class="display" id="project-title">[Artysta — Utwór]</h3>
+          <p class="project-type" id="project-type">Teledysk, [rok]</p>
+          <p>[Dwa, trzy zdania o realizacji: pomysł, jak powstała, efekt.]</p>
+        </div>
+        <dl class="credits">
+          <dt>Reżyseria</dt><dd>[ ]</dd>
+          <dt>Zdjęcia</dt><dd>[ ]</dd>
+          <dt>Montaż</dt><dd>[ ]</dd>
+          <dt>Kolor</dt><dd>[ ]</dd>
+          <dt>Produkcja</dt><dd>[ ]</dd>
+          <dt>Klient / label</dt><dd>[ ]</dd>
+        </dl>
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    (function () {
+      var grid = document.getElementById('grid');
+      var tiles = grid.querySelectorAll('.tile');
+      var filters = document.querySelectorAll('.filters button');
+
+      // Filtry
+      filters.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var f = btn.dataset.filter;
+          filters.forEach(function (b) { b.setAttribute('aria-pressed', String(b === btn)); });
+          grid.classList.toggle('is-filtered', f !== 'all');
+          tiles.forEach(function (t) { t.hidden = f !== 'all' && t.dataset.type !== f; });
+        });
+      });
+
+      // Podgląd na hover: gdy kafelek ma data-preview="loop.mp4"
+      tiles.forEach(function (t) {
+        var src = t.dataset.preview;
+        if (!src) return;
+        var frame = t.querySelector('.tile-frame');
+        var video = null;
+        function start() {
+          if (video) return;
+          video = document.createElement('video');
+          video.src = src; video.muted = true; video.loop = true; video.playsInline = true;
+          frame.appendChild(video);
+          video.play().catch(function () {});
+        }
+        function stop() { if (video) { video.remove(); video = null; } }
+        t.addEventListener('mouseenter', start);
+        t.addEventListener('mouseleave', stop);
+        t.addEventListener('focus', start);
+        t.addEventListener('blur', stop);
+      });
+
+      // Okno projektu
+      var dlg = document.getElementById('project');
+      var pFrame = document.getElementById('project-frame');
+      var pTitle = document.getElementById('project-title');
+      var pType = document.getElementById('project-type');
+      grid.addEventListener('click', function (e) {
+        var t = e.target.closest('.tile');
+        if (!t) return;
+        pTitle.textContent = t.dataset.title;
+        pType.textContent = t.dataset.label + ', ' + t.dataset.year;
+        pFrame.className = 'project-frame scene ' + t.dataset.scene;
+        pFrame.textContent = '';
+        if (t.dataset.video) { // pełne wideo: data-video="klip.mp4"
+          var v = document.createElement('video');
+          v.src = t.dataset.video; v.controls = true; v.playsInline = true;
+          pFrame.appendChild(v);
+        }
+        dlg.showModal();
+      });
+      function closeDlg() { dlg.close(); }
+      document.getElementById('project-close').addEventListener('click', closeDlg);
+      dlg.addEventListener('click', function (e) { if (e.target === dlg) closeDlg(); });
+      dlg.addEventListener('close', function () { pFrame.textContent = ''; });
+    })();
+  </script>
 </body>
 </html>
