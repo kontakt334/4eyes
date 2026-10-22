@@ -35,3 +35,4 @@ Fonty marki (Archivo, Instrument Sans) są ustawione w motywie. Bez ich instalac
 
 ## Poprawka własnej prezentacji (11 slajdów)
 22.10.2026: kosmetycznie poprawiona prezentacja „Światło jako narzędzie pracy" (plik od Was): `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-poprawiona.pptx`. Jedna czcionka (Calibri) w całym pliku, jednolite rozmiary (tytuł 32, tekst 20), krótsze hasła, slajd „Zasady pracy & BHP" rozdzielony na dwa (12 slajdów), stopka z tytułem szkolenia. Poprawione literówki: „White Balans" → „White Balance", „Conter light" → „Counter light".
+Dodane rysunki (w stylu cienkich linii z Waszej prezentacji, kolor #E3B18D): plan dnia jako łuk 1–7 (9:00–17:50), trójkąt ekspozycji, gradient ciepłe–zimne, kierunki światła z góry, histogram, soft vs hard (cień). Slajdy 2, zasady, BHP, błędy i model zostały z oryginalną grafiką. Rysunki to zwykłe kształty PowerPointa, da się je edytować.
