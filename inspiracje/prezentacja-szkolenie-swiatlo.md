@@ -47,3 +47,7 @@ Do potwierdzenia: tytuł „Namiot bezcieniowy" (zgadnięty z punktów, które w
 
 ## Wersja 3 (27 slajdów)
 22.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v3.pptx` (+ `.pdf`). Zmiany: plan dnia (kółko „przerwa" w miejscu 13:00, „Sprzęt i zastosowania" zamiast „Zaawansowane setupy", bez „Podsumowania"); „Trzy źródła światła": rim / back / counter light to to samo światło z tyłu (kontra) — dopisane w tekście i na rysunku; nowe rysunki na slajdach: praca z modelem, jedna i dwie osoby, spójność wizualna, odstawianie produktu. Nowe slajdy: „Światło naturalne", „Sprzęt" (Mini Pavo, MC Pro, czekoladki / małe panele LED; tytuł nasz, do zmiany). Ostatnie trzy (Set 1–3) zostawione puste.
+
+## Wersja 4 (27 slajdów)
+22.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v4.pptx` (+ `.pdf`). Wszystko z v3 zachowane. Nowe slajdy 25–27 (od Was): Klasyczny 3-punktowy, Silhouette, Rembrandt lighting. Teksty skrócone, każdy ma rysunek.
+ZASADA: Wy cały czas wrzucacie stary plik z nowymi slajdami. Przy każdej nowej wersji pliku stosujemy te same zmiany tekstów i rysunki co w poprzedniej wersji (plan dnia z przerwą 13:00, counter light, nowe rysunki itd.), a nowe slajdy robimy od zera w tym samym stylu.
