@@ -23,6 +23,9 @@ Plik na Dysku: https://drive.google.com/file/d/1yd7XD0etEYXQRYsfXHgKSunB1DJdYNdI
 - Slajdy 2–4 (plan, zasady, BHP) to trzy listy z rzędu, więc pierwsze minuty mogą być suche. Warto je skrócić albo scalić.
 - Sam dokument mówi: slajdy mają przypominać, nie zastępować prowadzącego, na ekranie tylko hasła.
 
+## Zrobione
+22.10.2026: zbudowane 3 slajdy otwarcia (para zdjęć before/after, jedno zdanie celu, plan dnia jako call sheet z zasadami) w stylu marki: `projekty/warsztaty-beauty-product/otwarcie.pptx`. Do uzupełnienia w pliku: zdjęcia A i B na slajdzie 1 oraz godziny bloków na slajdzie 3. Notatki prowadzącego są w notatkach slajdów.
+
 ## Do ustalenia
 - Godziny poszczególnych bloków i przerw (w dokumencie ich nie ma, tylko „wskaż godziny przerw").
 - Czy pokazujemy własne realizacje jako przykłady (`portfolio/realizacje.md`)?
