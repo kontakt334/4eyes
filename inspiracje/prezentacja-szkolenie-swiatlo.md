@@ -54,3 +54,6 @@ ZASADA: Wy cały czas wrzucacie stary plik z nowymi slajdami. Przy każdej nowej
 22.10.2026 (v4, poprawka): rysunki na slajdach 25–27 (3-punktowy, Silhouette, Rembrandt) zmienione na rzut z góry (ptasia perspektywa) setu z kamerą, tłem i ustawieniem świateł.
 22.10.2026 (v4): zmieniona kolejność — Blenda jest teraz slajdem 9, potem Kierunek światła (10), Soft/hard (11), Modyfikatory (12). Uwaga: gdy wrzucacie nowy stary plik, kolejność trzeba przenieść ponownie.
 22.10.2026 (v4): kolejność zmieniona jeszcze raz — Blenda jest slajdem 13, tuż przed „Najczęstsze błędy” (14); Kierunek światła (9), Soft/hard (10), Modyfikatory (11), Trzy źródła (12).
+
+## Wersja 5 (28 slajdów)
+22.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v5.pptx` (+ `.pdf`). Plan dnia: start 8:00, przerwa 11:30, studio do 14:00, przerzut na laboratorium 16:00, koniec 18:00. Po slajdzie 17 dodany slajd „Przerwa" (11:30). Slajd 2 z nowym rysunkiem (obiektyw + klaps). Kolejność: Kierunek (9), Soft/hard (10), Modyfikatory (11), Trzy źródła (12), Blenda (13), Najczęstsze błędy (14).
