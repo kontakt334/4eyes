@@ -41,3 +41,6 @@ Dodane rysunki (w stylu cienkich linii z Waszej prezentacji, kolor #E3B18D): pla
 22.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v2.pptx` (+ `.pdf`). Kolejność slajdów zostaje taka, jak ją ustawiliście. Jedna czcionka (Calibri), tytuły 32 pkt, tekst 20 pkt, krótsze hasła, stopka „Światło jako narzędzie pracy". Rysunki w stylu cienkich linii (#E3B18D) na slajdach: plan dnia, trójkąt, histogram, temperatura barwowa, kierunki światła, soft/hard, blenda, trzy źródła, kontrast/negative fill, jedna/dwie osoby, kąt przy produkcie, odstawianie produktu.
 Podziały: Zasady pracy / BHP; Najczęstsze błędy / Namiot bezcieniowy; Hero shot / Spójność wizualna.
 Do potwierdzenia: tytuł „Namiot bezcieniowy" (zgadnięty z punktów, które w pliku wisiały pod błędami), brak treści do „Światło wędrujące" (tytuł usunięty), literówka „kierynkowe" → „kierunkowe", „Conter" → „Counter", „White Balans" → „White Balance".
+
+## Wersja 2, poprawka (22 slajdy)
+22.10.2026: usunięty slajd „Namiot bezcieniowy". Plan dnia: start 9:00, przerwa obiadowa 13:00 (wstawiona po „Zaawansowane setupy", do potwierdzenia, gdzie dokładnie), koniec 17:20. Każdy slajd (poza tytułowym) ma własny rysunek z kształtów PowerPointa. Pliki `swiatlo-jako-narzedzie-pracy-v2.pptx` i `.pdf` w `projekty/warsztaty-beauty-product/` zastąpione nową wersją.
