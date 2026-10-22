@@ -24,7 +24,9 @@ Plik na Dysku: https://drive.google.com/file/d/1yd7XD0etEYXQRYsfXHgKSunB1DJdYNdI
 - Sam dokument mówi: slajdy mają przypominać, nie zastępować prowadzącego, na ekranie tylko hasła.
 
 ## Zrobione
-22.10.2026: zbudowane 3 slajdy otwarcia (para zdjęć before/after, jedno zdanie celu, plan dnia jako call sheet z zasadami) w stylu marki: `projekty/warsztaty-beauty-product/otwarcie.pptx`. Do uzupełnienia w pliku: zdjęcia A i B na slajdzie 1 oraz godziny bloków na slajdzie 3. Notatki prowadzącego są w notatkach slajdów.
+22.10.2026: zbudowana cała prezentacja (45 slajdów) w PowerPoint w stylu marki: `projekty/warsztaty-beauty-product/prezentacja-warsztaty-beauty-product.pptx`. Otwarcie (3 slajdy: para zdjęć before/after, jedno zdanie celu, plan dnia jako call sheet z zasadami) zastępuje slajdy 1–4 z dokumentu, dalej slajdy 5–39 z dokumentu pogrupowane w 7 bloków planu dnia (przerywniki bloków dodane przez nas, podział na bloki wynika z kolejności w dokumencie). Notatki prowadzącego są w notatkach slajdów, ściąga prowadzącego w notatkach slajdu 1.
+Do uzupełnienia w pliku: zdjęcia A i B na slajdzie 1 oraz godziny bloków na slajdzie 3.
+Fonty marki (Archivo, Instrument Sans) są ustawione w motywie. Bez ich instalacji PowerPoint podstawi inne, a zmienić je można w jednym miejscu: Projekt → Warianty → Czcionki.
 
 ## Do ustalenia
 - Godziny poszczególnych bloków i przerw (w dokumencie ich nie ma, tylko „wskaż godziny przerw").
