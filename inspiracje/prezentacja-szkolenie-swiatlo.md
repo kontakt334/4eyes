@@ -57,3 +57,6 @@ ZASADA: Wy cały czas wrzucacie stary plik z nowymi slajdami. Przy każdej nowej
 
 ## Wersja 5 (28 slajdów)
 22.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v5.pptx` (+ `.pdf`). Plan dnia: start 8:00, przerwa 11:30, studio do 14:00, przerzut na laboratorium 16:00, koniec 18:00. Po slajdzie 17 dodany slajd „Przerwa" (11:30). Slajd 2 z nowym rysunkiem (obiektyw + klaps). Kolejność: Kierunek (9), Soft/hard (10), Modyfikatory (11), Trzy źródła (12), Blenda (13), Najczęstsze błędy (14).
+
+## Wersja 6 (26 slajdów)
+23.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v6.pptx` (+ `.pdf`). Plan dnia: 8:00 start, przerwa 11:30, koniec w studiu 14:00, LAB bez godzin (nie wiadomo, od której do której). Hero shot i Spójność wizualna scalone w jeden slajd (8 haseł, rysunek karty stylu). Usunięty slajd „Odstawianie produktu". „Sprzęt" → „Zaplecze sprzętowe": Panel mikro-LED, Mini Pavo Tube, Blenda (w tekście od Was było „blędę", przyjęte jako blenda), nowy rysunek.
