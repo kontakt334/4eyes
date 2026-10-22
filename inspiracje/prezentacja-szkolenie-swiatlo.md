@@ -10,6 +10,11 @@ Zebrane 22.10.2026. Status: pomysły na start, temat i odbiorcy do doprecyzowani
 5. **Mini-demo na żywo (30 s).** Latarka z telefonu, ściana, kartka papieru jako dyfuzor. Zmieniasz kąt i miękkość, wszyscy widzą różnicę bez żadnego slajdu.
 6. **Agenda jako plan zdjęciowy.** Zamiast punktów 1–2–3: „Key / Fill / Back / Praktikale / Kolor". Lekki żart w stylu ekipy, a struktura jasna.
 
+## Źródło treści
+Prezentacja ma się opierać na dokumencie Google „prezentacja_warsztaty_fotograficzne" (warsztaty fotografii i wideo Beauty & Product, 9:00–17:50, teoria / demo / ćwiczenie / przegląd):
+https://docs.google.com/document/d/1yd7XD0etEYXQRYsfXHgKSunB1DJdYNdI/edit
+22.10.2026: z publicznego podglądu widać tylko tytuł i początek slajdu 1. Pełna treść wymaga podpięcia Dysku/Dokumentów Google albo wgrania .docx.
+
 ## Do ustalenia
 - Czy to podsumowanie szkolenia dla ekipy, czy prowadzenie warsztatu?
 - Ile czasu / ile slajdów?
