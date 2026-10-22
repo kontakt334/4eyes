@@ -32,3 +32,6 @@ Fonty marki (Archivo, Instrument Sans) są ustawione w motywie. Bez ich instalac
 - Godziny poszczególnych bloków i przerw (w dokumencie ich nie ma, tylko „wskaż godziny przerw").
 - Czy pokazujemy własne realizacje jako przykłady (`portfolio/realizacje.md`)?
 - Czy slajdy robimy w Google Slides, czy w innym formacie?
+
+## Poprawka własnej prezentacji (11 slajdów)
+22.10.2026: kosmetycznie poprawiona prezentacja „Światło jako narzędzie pracy" (plik od Was): `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-poprawiona.pptx`. Jedna czcionka (Calibri) w całym pliku, jednolite rozmiary (tytuł 32, tekst 20), krótsze hasła, slajd „Zasady pracy & BHP" rozdzielony na dwa (12 slajdów), stopka z tytułem szkolenia. Poprawione literówki: „White Balans" → „White Balance", „Conter light" → „Counter light".
