@@ -13,9 +13,17 @@ Zebrane 22.10.2026. Status: pomysły na start, temat i odbiorcy do doprecyzowani
 ## Źródło treści
 Prezentacja ma się opierać na dokumencie Google „prezentacja_warsztaty_fotograficzne" (warsztaty fotografii i wideo Beauty & Product, 9:00–17:50, teoria / demo / ćwiczenie / przegląd):
 https://docs.google.com/document/d/1yd7XD0etEYXQRYsfXHgKSunB1DJdYNdI/edit
-22.10.2026: z publicznego podglądu widać tylko tytuł i początek slajdu 1. Pełna treść wymaga podpięcia Dysku/Dokumentów Google albo wgrania .docx.
+Plik na Dysku: https://drive.google.com/file/d/1yd7XD0etEYXQRYsfXHgKSunB1DJdYNdI/view
+22.10.2026: przeczytane przez konektor Dysku Google. To scenariusz 39 slajdów do prowadzenia na żywo (kolumny „Dla uczestników" i „Notatki dla prowadzącego"), cały dzień 9:00–17:50, schemat każdego bloku: teoria → demo → ćwiczenie → wspólny przegląd.
+
+## Co z dokumentu da się wykorzystać w otwarciu (slajdy 1–4)
+- Cel dnia z notatek do slajdu 1: nie jedno dobre zdjęcie, tylko proces, który da się powtórzyć.
+- Zasada „zmieniamy jeden element naraz" (slajd 3) i ćwiczenie before/after (slajd 15) to rdzeń całego dnia.
+- Karta setupu „Lighting Bible" (slajd 31) jako zapowiedź tego, co każdy zabierze ze sobą.
+- Slajdy 2–4 (plan, zasady, BHP) to trzy listy z rzędu, więc pierwsze minuty mogą być suche. Warto je skrócić albo scalić.
+- Sam dokument mówi: slajdy mają przypominać, nie zastępować prowadzącego, na ekranie tylko hasła.
 
 ## Do ustalenia
-- Czy to podsumowanie szkolenia dla ekipy, czy prowadzenie warsztatu?
-- Ile czasu / ile slajdów?
+- Godziny poszczególnych bloków i przerw (w dokumencie ich nie ma, tylko „wskaż godziny przerw").
 - Czy pokazujemy własne realizacje jako przykłady (`portfolio/realizacje.md`)?
+- Czy slajdy robimy w Google Slides, czy w innym formacie?
