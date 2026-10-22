@@ -53,3 +53,4 @@ Do potwierdzenia: tytuł „Namiot bezcieniowy" (zgadnięty z punktów, które w
 ZASADA: Wy cały czas wrzucacie stary plik z nowymi slajdami. Przy każdej nowej wersji pliku stosujemy te same zmiany tekstów i rysunki co w poprzedniej wersji (plan dnia z przerwą 13:00, counter light, nowe rysunki itd.), a nowe slajdy robimy od zera w tym samym stylu.
 22.10.2026 (v4, poprawka): rysunki na slajdach 25–27 (3-punktowy, Silhouette, Rembrandt) zmienione na rzut z góry (ptasia perspektywa) setu z kamerą, tłem i ustawieniem świateł.
 22.10.2026 (v4): zmieniona kolejność — Blenda jest teraz slajdem 9, potem Kierunek światła (10), Soft/hard (11), Modyfikatory (12). Uwaga: gdy wrzucacie nowy stary plik, kolejność trzeba przenieść ponownie.
+22.10.2026 (v4): kolejność zmieniona jeszcze raz — Blenda jest slajdem 13, tuż przed „Najczęstsze błędy” (14); Kierunek światła (9), Soft/hard (10), Modyfikatory (11), Trzy źródła (12).
