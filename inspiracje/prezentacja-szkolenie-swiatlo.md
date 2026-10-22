@@ -60,3 +60,4 @@ ZASADA: Wy cały czas wrzucacie stary plik z nowymi slajdami. Przy każdej nowej
 
 ## Wersja 6 (26 slajdów)
 23.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v6.pptx` (+ `.pdf`). Plan dnia: 8:00 start, przerwa 11:30, koniec w studiu 14:00, LAB bez godzin (nie wiadomo, od której do której). Hero shot i Spójność wizualna scalone w jeden slajd (8 haseł, rysunek karty stylu). Usunięty slajd „Odstawianie produktu". „Sprzęt" → „Zaplecze sprzętowe": Panel mikro-LED, Mini Pavo Tube, Blenda (w tekście od Was było „blędę", przyjęte jako blenda), nowy rysunek.
+23.10.2026 (v6): tytuł slajdu 21 to „Spójność wizualna i storytelling” (bez „Hero shot”).
