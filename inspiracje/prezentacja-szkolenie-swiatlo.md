@@ -44,3 +44,6 @@ Do potwierdzenia: tytuł „Namiot bezcieniowy" (zgadnięty z punktów, które w
 
 ## Wersja 2, poprawka (22 slajdy)
 22.10.2026: usunięty slajd „Namiot bezcieniowy". Plan dnia: start 9:00, przerwa obiadowa 13:00 (wstawiona po „Zaawansowane setupy", do potwierdzenia, gdzie dokładnie), koniec 17:20. Każdy slajd (poza tytułowym) ma własny rysunek z kształtów PowerPointa. Pliki `swiatlo-jako-narzedzie-pracy-v2.pptx` i `.pdf` w `projekty/warsztaty-beauty-product/` zastąpione nową wersją.
+
+## Wersja 3 (27 slajdów)
+22.10.2026: `projekty/warsztaty-beauty-product/swiatlo-jako-narzedzie-pracy-v3.pptx` (+ `.pdf`). Zmiany: plan dnia (kółko „przerwa" w miejscu 13:00, „Sprzęt i zastosowania" zamiast „Zaawansowane setupy", bez „Podsumowania"); „Trzy źródła światła": rim / back / counter light to to samo światło z tyłu (kontra) — dopisane w tekście i na rysunku; nowe rysunki na slajdach: praca z modelem, jedna i dwie osoby, spójność wizualna, odstawianie produktu. Nowe slajdy: „Światło naturalne", „Sprzęt" (Mini Pavo, MC Pro, czekoladki / małe panele LED; tytuł nasz, do zmiany). Ostatnie trzy (Set 1–3) zostawione puste.
