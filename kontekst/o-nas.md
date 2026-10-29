@@ -4,8 +4,12 @@
 
 ## Czym się zajmujemy
 - Teledyski
+- Aftermovie
 - Reklamy
-- [do uzupełnienia: inne — content na sociale, eventy, dokument?]
+- Reelsy
+
+## Sprzęt
+Własny, bardzo duży zasób: https://v-rental.pl. Dodatkowy wynajem można doliczać do wyceny.
 
 ## Ekipa
 | Imię / ksywa | Rola | Kontakt |

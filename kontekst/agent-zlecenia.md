@@ -58,4 +58,18 @@ gotowa spersonalizowana odpowiedź, lista rzeczy do doprecyzowania.
 11. Częstotliwość monitorowania
 12. Próg alertu
 
-Odpowiedzi: _jeszcze brak_
+## Odpowiedzi (2026-10-29)
+1. **Zakres:** teledyski, aftermovie, reklamy, reelsy.
+2. **Sprzęt/kompetencje:** sprzęt praktycznie nieograniczony (własny, https://v-rental.pl; wynajem czegoś dodatkowego można doliczyć do wyceny). Ekipa pokrywa cały plan zdjęciowy i postprodukcję.
+3. **Portfolio:** bardzo duże (m.in. Porsche, Boss, Clout Festival, Mata, Malik Montana). Strona w budowie; pełna lista do wrzucenia do repo później. Do czasu uzupełnienia `portfolio/realizacje.md` w ofertach powołujemy się tylko na te nazwy, bez wymyślania szczegółów.
+4. **Min. budżet:** 1000 zł (prosty short: DOP + montaż). Rozliczenie fakturą lub gotówką.
+5. **Rozliczenie:** różne zależnie od projektu (wycena indywidualna).
+6. **Dostępność:** pomijamy przy ocenie ofert; ustalamy dopiero przy akceptacji.
+7. **Języki/teren:** głównie polski; tylko projekty w Polsce.
+8. **Wykluczenia:** śluby, bardzo niskie budżety, praca za darmo.
+9. **Powiadomienia:** kontakt@4eyesproduction.info (ten sam adres). Konto Useme: do podania/zalogowania przez właściciela.
+10. **Źródła:** Useme; grupy na Facebooku (lista do przesłania później); Fiverr odłożony na później.
+11. **Częstotliwość:** kilka razy dziennie: 10:00, 12:00, 15:00, 18:00, 22:00 (Europe/Warsaw).
+12. **Próg alertu:** 75/100.
+
+Otwarte: sposób monitorowania Facebooka (automatyczne przeglądanie grup narusza regulamin FB, szukamy dozwolonej drogi), kanał wysyłki e-maili, lista grup.
