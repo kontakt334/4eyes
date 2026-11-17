@@ -89,5 +89,15 @@ próba Nikolovej jest mała. Nie znalazłem badań wprost o produkcji filmowej. 
 
 Zastrzeżenie: badania nie mówią, że decyzje są WYŁĄCZNIE emocjonalne. Mówią, że emocje i szybkie wrażenie silnie kształtują ocenę.
 
+### Kierunek (od prowadzącego, 17.11.2026, wieczór)
+Część praktyczna ma budować **sposób myślenia o tym, co i jak mówimy**, a nie zestaw gotowych narzędzi.
+Gotowe zdania (`gotowe-zdania.md`) co najwyżej jako ilustracja, nie jako „regułki”.
+
+### Szkic: trzy pytania, które zadajesz sobie na planie (do omówienia)
+1. Kto mnie teraz słyszy / widzi i kto to może powtórzyć?
+2. Jak to zabrzmi w cudzych ustach (jako cytat o mnie lub o 4 Eyez)?
+3. Co z tego czuje druga osoba: robię ją spokojniejszą czy bardziej spiętą?
+Zdanie spinające: jestem jednym z dziesięciu, a ktoś zawsze opowiada o całym 4 Eyez na podstawie mnie.
+
 ## Historie / przykłady z planów
 (do dopisania)
