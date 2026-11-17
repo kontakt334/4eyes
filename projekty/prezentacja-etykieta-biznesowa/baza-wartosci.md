@@ -71,6 +71,22 @@ Słabsze (branżowe, marketingowe — używać ostrożnie, nie jako „dowód na
 - CEB / Google / Motista o kupujących B2B: „wartość osobista” waży więcej niż biznesowa; B2B buyers ok. 2x chętniej rozważają markę z wartością osobistą.
   https://www.marketingweek.com/b2b-branding-where-is-the-love/ , https://blog.adobe.com/en/publish/2017/08/15/b2b-buying-is-full-of-emotions-ptr-tlp
 - UWAGA: popularne „95% decyzji zakupowych jest podświadome” (Zaltman) to powtarzany slogan, nie twarde badanie — nie wstawiać na slajd.
+
+### Teza: gdy oferty są zbliżone, o wyborze decyduje wartość osobista/emocjonalna (liczby do slajdów)
+- **Bain, HBR 2018, „The B2B Elements of Value”** (Almquist, Cleghorn, Sherer): analiza dziesiątek badań klientów z 3 dekad;
+  im bardziej oferty się utowarowiają, tym ważniejsze stają się subiektywne, osobiste kryteria kupujących (spokój, reputacja, łatwość współpracy).
+  https://hbr.org/2018/03/the-b2b-elements-of-value
+- **CEB (Gartner) + Google + Motista, „From Promotion to Emotion” (2013)**: ok. 3000 kupujących B2B, 36 marek, 7 kategorii.
+  Wartość osobista ma ok. 2x większy wpływ na wyniki niż wartość biznesowa; kupujący widzący wartość osobistą deklarują chęć zakupu ponad 3x częściej.
+  Powód: różnice w wartości biznesowej między dostawcami są dla kupujących niewielkie („table stakes”).
+  https://www.marketingcharts.com/industries/business-to-business-37036 , https://www.marketingweek.com/b2b-branding-where-is-the-love/
+- **Magids, Zorfas, Leemon, HBR 2015, „The New Science of Customer Emotions”**: klienci w pełni emocjonalnie związani z marką są średnio o 52% bardziej wartościowi niż „tylko bardzo zadowoleni”.
+  https://hbr.org/2015/11/the-new-science-of-customer-emotions
+- **Nikolova i in. (2015), klient–konsultant** (jakościowe, 15 klientów + 16 konsultantów): zaufanie budują m.in. sympatia i „dopasowanie osobiste”, które dają więź emocjonalną.
+  https://www.sciencedirect.com/science/article/abs/pii/S0956522114001031
+Zastrzeżenia: to badania konsultingowe/branżowe o markach i dostawcach B2B, nie o produkcji wideo; CEB/Google to deklaracje ankietowe, nie zachowania;
+próba Nikolovej jest mała. Nie znalazłem badań wprost o produkcji filmowej. Logika (utowarowienie oferty → rośnie rola relacji) przenosi się 1:1, ale mówić o tym uczciwie jako „analogia z B2B”.
+
 Zastrzeżenie: badania nie mówią, że decyzje są WYŁĄCZNIE emocjonalne. Mówią, że emocje i szybkie wrażenie silnie kształtują ocenę.
 
 ## Historie / przykłady z planów
