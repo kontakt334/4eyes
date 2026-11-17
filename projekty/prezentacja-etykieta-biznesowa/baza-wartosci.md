@@ -50,6 +50,7 @@ co mówią (także o kliencie). Konkret na plan: przychodzę, przedstawiam się,
 
 ### Okoliczności
 Integracja ekipy: słuchacze to wyłącznie osoby z 4 Eyez (bez klientów), wiek ok. 20–30 lat.
+Czas: 20–30 min maksimum (to nie jest temat na dłużej), więc ok. 10–12 slajdów + interakcja.
 
 ## Historie / przykłady z planów
 (do dopisania)
