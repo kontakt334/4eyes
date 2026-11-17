@@ -48,5 +48,8 @@ co mówią (także o kliencie). Konkret na plan: przychodzę, przedstawiam się,
 3. **Im mniej osób z 4 Eyez zostanie zapamiętanych, tym mniej zapamiętany będzie cały skład.**
    Każdy ma zostawić po sobie ślad (przedstawić się, pogadać), żeby zapamiętano ekipę.
 
+### Okoliczności
+Integracja ekipy: słuchacze to wyłącznie osoby z 4 Eyez (bez klientów), wiek ok. 20–30 lat.
+
 ## Historie / przykłady z planów
 (do dopisania)
