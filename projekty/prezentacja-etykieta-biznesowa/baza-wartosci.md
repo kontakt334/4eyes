@@ -36,7 +36,17 @@ jak ktoś nas zapamięta i jak widzi cały 4 Eyez.
 Propozycja rdzenia: 3, 1 i 7; reszta jako krótsze bloki lub dodatek.
 
 ## Ustalenia
-(uzupełniamy w trakcie rozmowy)
+
+### Cel prezentacji (od prowadzącego, 17.11.2026)
+Po prezentacji ekipa ma rozumieć znaczenie **etykiety osobistej**: jak się zachowują, jak rozmawiają,
+co mówią (także o kliencie). Konkret na plan: przychodzę, przedstawiam się, rozmawiam z ludźmi.
+
+### Trzy główne przekazy
+1. **Ludzie nas oceniają i rozmawiają o nas między sobą dużo częściej, niż nam się wydaje.** Zawsze mieć to z tyłu głowy.
+2. **Jednostka wpływa na to, jak widzą nas, a to przekłada się na to, jak widzą cały 4 Eyez.** Każda rozmowa
+   o kimś z nas jest w praktyce rozmową o 4 Eyez; jak mówią o jednej osobie, tak patrzą na ekipę.
+3. **Im mniej osób z 4 Eyez zostanie zapamiętanych, tym mniej zapamiętany będzie cały skład.**
+   Każdy ma zostawić po sobie ślad (przedstawić się, pogadać), żeby zapamiętano ekipę.
 
 ## Historie / przykłady z planów
 (do dopisania)
