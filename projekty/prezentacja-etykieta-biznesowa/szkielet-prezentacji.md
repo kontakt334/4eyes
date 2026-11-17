@@ -35,3 +35,22 @@ Zdanie przewodnie: **Jestem jedną osobą z 4 Eyez, a ktoś zawsze opowiada o ca
 ## Rezerwa (zostaje w repo, nie weszło do szkieletu)
 Badania o pierwszym wrażeniu (Todorov, Ambady, Slovic), trait transference (`scenariusze-ryzyka.md`), pozostałe scenariusze i pułapki
 „po koleżeńsku” (`segment-za-kadrem.md`), trzy pytania („kto mnie słyszy, jak to zabrzmi, co czuje druga osoba”), mapa obszarów w `baza-wartosci.md`.
+
+## Slajd 3 (rozwinięcie): „Na jakiej podstawie klient ocenia naszą pracę?”
+Interakcja: najpierw sala wymienia obszary, potem odsłaniasz listę. Pytanie pomocnicze: „Które z nich widać w pliku mp4?”
+
+**Co widać w pliku (twarde, klient może to zmierzyć)**
+1. Efekt końcowy: obraz, kolor, montaż, zgodność z briefem
+2. Terminy: czy dowieźliśmy na czas, ile było poprawek
+3. Cena: czy było warto, czy nie było niespodzianek
+
+**Co czuć podczas współpracy (miękkie)**
+4. Łatwość współpracy: szybka odpowiedź, jasne ustalenia, brak chaosu
+5. Spokój: czy ma poczucie, że mamy to pod kontrolą, czy się stresuje
+6. Pomysły i zrozumienie jego wizji
+7. **Jacy jesteśmy na planie: jak się witamy, z kim i jak gadamy, jak mówimy o innych, jaka jest atmosfera. ← część tej prezentacji**
+8. Co o nas słyszy od innych: opinie i polecenia
+
+Puenta: „Pierwsze trzy klient może zmierzyć. Resztę po prostu czuje.” Przejście do slajdu 4: gdy twarde są podobne, miękkie decydują.
+Dodatkowa myśl do punktu 7: klient pyta też siebie: „Czy polecenie ich nie zrobi ze mnie głupka przed szefem?” (ryzyko osobiste kupującego).
+Uwaga: lista jest syntezą (częściowo opartą na Bain/HBR „Elements of Value”), nie rankingiem z jednego badania. Nie przedstawiać jako wyniku badania.
