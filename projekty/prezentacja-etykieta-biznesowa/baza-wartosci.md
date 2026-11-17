@@ -21,6 +21,20 @@ jak ktoś nas zapamięta i jak widzi cały 4 Eyez.
 9. Uczciwość: „nie wiem, sprawdzę” zamiast obiecywania na ślepo
 10. Zakończenie i follow-up: podziękowanie, dowiezienie na czas, jak nas zapamiętają
 
+## Mapa obszarów do omówienia (szkic — do wyboru)
+1. Pozyskanie: pierwszy kontakt, spotkanie i briefing, wycena i oferta, umowa i prawa
+2. Preprodukcja: ustalenia na piśmie, call sheet, oczekiwania klienta, przygotowanie
+3. Dzień zdjęciowy: punktualność, przywitanie, jeden głos, small talk, szacunek dla wszystkich, klient przy monitorze, wpadki
+4. Postprodukcja: terminy, wersje, feedback i rewizje, dostarczanie plików
+5. Po projekcie: faktura i płatności, follow-up, referencje, portfolio
+6. Rodzaje klientów: korporacja, agencja, mała firma, artysta/label, osoba prywatna
+7. Trudne sytuacje: zmiana zdania, brak płatności, mikrozarządzanie, konflikt w ekipie, mówienie „nie”
+8. Komunikacja: mail, WhatsApp, telefon, social media na planie, NDA
+9. Wizerunek 4 Eyez i reputacja
+10. Dla początkujących: rola juniora, networking, feedback
+
+Propozycja rdzenia: 3, 1 i 7; reszta jako krótsze bloki lub dodatek.
+
 ## Ustalenia
 (uzupełniamy w trakcie rozmowy)
 
