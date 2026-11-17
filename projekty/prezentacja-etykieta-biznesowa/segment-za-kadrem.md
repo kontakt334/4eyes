@@ -22,10 +22,27 @@ i zmienić to, jak ktoś patrzy na całe 4 Eyez. Kolega z planu to jeszcze nie k
 - informacje o innych projektach (poufne)
 
 ## Pułapki-pytania „po koleżeńsku” i jak je odbić (ilustracja myślenia, nie regułki)
-- „A ten wasz [X] to zawsze taki wymagający?” → „Każdy ma swój styl, ja się z nim dogaduję.”
-- „A ile wy normalnie bierzecie?” → „Wolę, żeby to rozpisała osoba od wycen, ma pełny obraz.”
-- „A jak było z tamtym klientem?” → „Nie opowiadam o innych projektach. Tak samo nie opowiem nikomu o waszym.”
-Ostatnie zdanie jest kluczowe: dyskrecja wobec innych to dla klienta gwarancja dyskrecji wobec niego.
+Zostaje z poprzedniej wersji (prowadzący: „druga fajna”): stawki. Pierwsza i trzecia uznane za słabsze, podmienione poniżej.
+Zasada ogólna: klient zwykle pyta z ciekawości, nie ze złej woli. Ryzyko jest w tym, co my powiemy. Odbijamy ciepło, nie sztywno: uśmiech i zmiana tematu.
+
+**Pieniądze**
+- „A ile wy normalnie bierzecie za taki dzień?” → „Wolę, żeby to rozpisała osoba od wycen, ma pełny obraz.”
+- „A w ogóle jak u was z robotą, płacą wam na czas?” (sprawdza kondycję firmy) → „Mamy co robić, nie narzekamy.”
+
+**Poza firmą / „między nami”**
+- „Zrobisz mi coś na boku, taniej, bez faktury?” → „Dzięki, ale wszystko idzie przez nas jako ekipę, tak ustalamy z góry.”
+- „Zrób to jedno ujęcie extra, tylko nie mówmy producentowi.” → „Jasne, daj mi sekundę, uzgodnię, żebyśmy mieli na to czas.”
+
+**Inni ludzie i prace**
+- „Kto z was jest najlepszy, a kto najsłabszy?” → „Każdy ma inną mocną stronę, dlatego działamy jako ekipa.”
+- „Widziałeś ostatni klip [artysta]? Mnie się nie podobał.” → „Nie oceniam cudzych prac. W tym, co robimy my, ważne jest…”
+- „Dla kogo jeszcze robiliście ten spot?” → „Publiczne rzeczy mam w portfolio, resztą się nie chwalimy. Tak samo nie opowiem nikomu o waszym.”
+
+**Używki i wieczór**
+- „Idziemy po planie na piwo? Masz coś do zajarania?” → „Piwo po robocie chętnie, resztę zostawiam.”
+  (Pułapka odwrotna: klient sam zaczyna. To, że zaczyna on, nie znaczy, że to zaproszenie. Później też ocenia, jak zareagowaliśmy.)
+
+Ostatnie zdanie z „nie opowiem nikomu o waszym” jest kluczowe: dyskrecja wobec innych jest dla klienta gwarancją dyskrecji wobec niego.
 
 ## Spięcie z mechanizmem
 Spontaneous trait transference: opowiadając o innych, zostajemy z ich cechami. Pytanie 2 z trzech pytań:
