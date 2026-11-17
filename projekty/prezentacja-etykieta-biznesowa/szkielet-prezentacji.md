@@ -54,3 +54,26 @@ Interakcja: najpierw sala wymienia obszary, potem odsłaniasz listę. Pytanie po
 Puenta: „Pierwsze trzy klient może zmierzyć. Resztę po prostu czuje.” Przejście do slajdu 4: gdy twarde są podobne, miękkie decydują.
 Dodatkowa myśl do punktu 7: klient pyta też siebie: „Czy polecenie ich nie zrobi ze mnie głupka przed szefem?” (ryzyko osobiste kupującego).
 Uwaga: lista jest syntezą (częściowo opartą na Bain/HBR „Elements of Value”), nie rankingiem z jednego badania. Nie przedstawiać jako wyniku badania.
+
+## Analiza luk (18.11.2026, po drugiej wersji notatek prowadzącego)
+Co już jest pokryte: pierwsze wrażenie i przedstawianie się, rozmowy o innych za plecami, używki, żarty z ludzi, narzekanie na budżet,
+mowa ciała przy monitorze, „klient to nie przyjaciel”, brudy wewnętrzne, zmiana w ostatniej chwili, „nie damy rady”, „nie wiem”, pożegnanie.
+
+### Obszary, które pasują do tezy i których jeszcze nie ma (propozycje)
+| # | Obszar | Dlaczego pasuje | Gdzie wchodzi | Priorytet |
+|---|---|---|---|---|
+| A | **Sprzęt słyszy i nagrywa; telefon, czat ekipy, social media** (włączony mikrofon / rejestrator, story z planu, screeny z grupy ekipy, wrzutki o kliencie) | to samo „za kadrem”, ale w wersji specyficznej dla nas i dla ludzi 20–30 | część 3, nowe przykłady 6–7 | wysoki |
+| B | **Ludzie „niewidoczni”: asystent klienta, gospodarz lokacji, ochrona, catering, statyści** („z kim gadamy”) | klient widzi, jak traktujemy tych, którzy nie mogą nam nic dać | część 2, slajd 7 (rozszerzenie „przedstawiłeś się każdemu?”) | wysoki |
+| C | **Kiedy my coś zawalimy** (spóźnienie, sprzęt, błąd): mówimy szybko, konkretnie, z propozycją, nie chowamy | domyka pytanie z rundy ekipy i punkt „spokój” | część 4, krótki slajd przed rundą | wysoki |
+| D | **Rejestr klienta: korpo, agencja, teledysk, artysta** (ten sam szacunek, inny luz) | intro mówi, że pracujemy dla różnych klientów | jedna linijka w części 3 lub 4 | średni |
+| E | **Wygląd i higiena na planie** (schludność, zapach po papierosie) | część wrażenia „jacy jesteśmy” | jedna linijka przy punkcie 7 z listy obszarów | niski |
+| F | **Punktualność i przygotowanie** | klasyka, ale klient liczy je w pierwszych minutach | jedna linijka w „krok przed klientem” | niski |
+
+### Czego NIE dodawać (to inna prezentacja, rozmyłoby oś)
+Wyceny i umowy, rundy poprawek w postprodukcji, płatności i faktury, dostarczanie plików, mapa pełnego procesu zlecenia.
+
+### Do poprawy w notatkach
+- trzy zdania w pliku to mój komentarz do Ciebie, nie tekst dla słuchaczy: „To jest punkt Twojej prezentacji.”, „Potem przechodzisz do slajdu z liczbami…”, „Powód odpowiada Twojej tezie…”
+- brak numerów w punktach 1–3 listy obszarów oceny (są 4–8)
+- urwane zdanie „Ocena bardzo często jest uwaru…”
+- imię z przykładu 1 → „ta przełożona”
