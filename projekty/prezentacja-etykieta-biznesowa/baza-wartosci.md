@@ -52,5 +52,26 @@ co mówią (także o kliencie). Konkret na plan: przychodzę, przedstawiam się,
 Integracja ekipy: słuchacze to wyłącznie osoby z 4 Eyez (bez klientów), wiek ok. 20–30 lat.
 Czas: 20–30 min maksimum (to nie jest temat na dłużej), więc ok. 10–12 slajdów + interakcja.
 
+## Badania i źródła (do slajdu „to nie jest tylko moje zdanie”)
+Mocne (recenzowane):
+- Willis & Todorov (2006), *First impressions: making up your mind after a 100-ms exposure to a face*, Psychological Science 17 —
+  wrażenie o wiarygodności, sympatii, kompetencji po 100 ms; więcej czasu zwiększa głównie pewność oceny, nie jej treść.
+  https://collaborate.princeton.edu/en/publications/first-impressions-making-up-your-mind-after-a-100-ms-exposure-to-/
+- Ambady & Rosenthal (1992), *Thin slices of expressive behavior…*, Psychological Bulletin 111 — meta-analiza 38 badań,
+  krótkie (poniżej 5 min) obserwacje zachowania przewidują późniejsze wyniki (średnio r = .39).
+  https://www.simplypsychology.org/thin-slicing-psychology.html
+- Ambady i in. (2002), *Surgeons' tone of voice: a clue to malpractice history*, Surgery 132 — po samym tonie głosu
+  (bez treści) dało się odróżnić chirurgów, których pacjenci pozywali; Levinson i in. (1997, JAMA): różnica w sposobie komunikacji, nie w treści.
+  https://www.reliasmedia.com/articles/103363-the-tonal-qualities-of-providers-voice-predictive-of-history
+- Slovic i in. (2002/2007), *The affect heuristic* — ludzie używają „uczucia” (dobre/złe) jako skrótu zamiast ważyć za i przeciw.
+  https://longevity.stanford.edu/?p=21198
+- Fiske, Cuddy, Glick (2002), Stereotype Content Model — oceniamy ludzi na dwóch osiach: ciepło (czy to „swój”) i kompetencje.
+  https://www.apa.org/monitor/2010/10/compassion
+Słabsze (branżowe, marketingowe — używać ostrożnie, nie jako „dowód naukowy”):
+- CEB / Google / Motista o kupujących B2B: „wartość osobista” waży więcej niż biznesowa; B2B buyers ok. 2x chętniej rozważają markę z wartością osobistą.
+  https://www.marketingweek.com/b2b-branding-where-is-the-love/ , https://blog.adobe.com/en/publish/2017/08/15/b2b-buying-is-full-of-emotions-ptr-tlp
+- UWAGA: popularne „95% decyzji zakupowych jest podświadome” (Zaltman) to powtarzany slogan, nie twarde badanie — nie wstawiać na slajd.
+Zastrzeżenie: badania nie mówią, że decyzje są WYŁĄCZNIE emocjonalne. Mówią, że emocje i szybkie wrażenie silnie kształtują ocenę.
+
 ## Historie / przykłady z planów
 (do dopisania)
